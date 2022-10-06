@@ -1,57 +1,47 @@
-* {
+*{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: border-box;   
+    
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: normal;
 }
 body{
     font-family: 'Poppins', sans-serif;
+    
 }
 a{
     text-decoration: none;
-    color: firebrick;
+    color: black;
 }
 .container{
     max-width: 1140px;
     margin: 0 auto;
 }
 .menu{
-    margin: 80px;
-    border-top: 1px solid grey;
-    border-bottom: 1px solid grey;
-    padding: 30px 0px 30px 0px;
-}
-/* .menu-flex .logo{
-    float: left;
-}
-.menu-flex .search{
-    float: left;
-} */
-.center{
-    text-align: center;
+    margin-top: 80px;
+    border-top: 1px solid #dedede;
+    border-bottom: 1px solid #dedede;
 }
 .menu-flex{
     display: flex;
     justify-content: space-between;
+    padding: 25px 0px;
+    background-color: darkcyan;
 }
-.list.menu{
+.list-menu{
     display: flex;
     justify-content: space-between;
     gap: 30px;
 }
 .logo{
-    /* background-color: goldenrod;
-    padding: 30px;
-    margin-top: 50px; */
-    font-weight: 800px; 
+    font-weight: 800;
 }
-
 .content{
-    padding: 0px 180;
-}    
+    padding: 0px 180px;
+}
 .content-header{
     padding-top: 80px;
     text-align: center;
-}
-.content{
-    padding: 0px 180;
 }
